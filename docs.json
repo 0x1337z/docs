@@ -17,7 +17,7 @@
             "group": "Get Started",
             "pages": [
               "index",
-                "info",
+                "starthere",
               "quickstart",
               "development",
               "commands"
