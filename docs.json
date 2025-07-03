@@ -1,13 +1,13 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "maple",
-  "name": "Inferno Starter Kit",
+  "name": "Inferno",
   "colors": {
     "primary": "#F97316",
     "light": "#F59E0B",
     "dark": "#DC2626"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
   "navigation": {
     "tabs": [
       {
@@ -19,17 +19,6 @@
               "index",
                 "starthere",
               "commands"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
             ]
           }
         ]
