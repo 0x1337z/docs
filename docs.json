@@ -8,63 +8,17 @@
     "dark": "#DC2626"
   },
   "favicon": "/favicon.ico",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "index",
-                "starthere",
-              "commands"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-      ]
-    }
-  },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/flameiconpixelart.ico",
+    "dark": "/logo/flameiconpixelart.ico"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "https://discord.gg/5ntHDFYecx"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
+    ]
   },
   "footer": {
     "socials": {
@@ -72,5 +26,86 @@
       "github": "https://github.com/mintlify",
       "linkedin": "https://linkedin.com/company/mintlify"
     }
+  },
+  "navigation": {
+    "languages": [
+      {
+        "language": "en",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "icon": "play",
+            "pages": [
+              "en/index",
+              "en/quickstart"
+            ]
+          },
+          {
+            "group": "Commands",
+            "icon": "info",
+            "pages": [
+              "en/commands"
+            ]
+          },
+          {
+            "group": "Points",
+            "icon": "coin",
+            "pages": ["en/points"]
+          },
+          {
+            "group": "FAQ",
+            "icon": "block-question",
+            "pages": ["en/faq"]
+          },
+          {
+            "group": "Languages",
+            "icon": "globe",
+            "pages": ["en/languages"]
+          }
+        ]
+      },
+      {
+        "language": "zh",
+        "groups": [
+          {
+            "group": "入门",
+            "pages": [
+              "zh/index",
+              "zh/quickstart",
+              "zh/commands",
+              "zh/development"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "ja",
+        "groups": [
+          {
+            "group": "はじめに",
+            "pages": [
+              "ja/index",
+              "ja/quickstart",
+              "ja/commands",
+              "ja/development"
+            ]
+          }
+        ]
+      },
+      {
+        "language": "es",
+        "groups": [
+          {
+            "group": "Comenzando",
+            "pages": [
+              "es/index",
+              "es/quickstart",
+              "es/commands",
+              "es/development"
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
