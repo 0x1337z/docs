@@ -36,8 +36,7 @@
             "group": "Getting Started",
             "icon": "play",
             "pages": [
-              "en/index",
-              "en/quickstart"
+              "en/index"
             ]
           },
           {
