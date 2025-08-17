@@ -1,0 +1,131 @@
+---
+title: "FAQ"
+description: "Frequently Asked Questions about Inferno Trading Bot"
+---
+
+# Frequently Asked Questions
+
+## General Questions
+
+### What is Inferno Trading Bot?
+Inferno is an advanced Telegram-based trading bot that allows users to trade tokens with leverage on various meme tokens. It provides a user-friendly interface for both beginners and experienced traders.
+
+### How do I get started with Inferno?
+1. Join our Telegram community and apply for whitelist access
+2. Once approved, start the bot at [t.me/infernotrade_bot](https://t.me/infernotrade_bot)
+3. Fund your wallet and start trading
+
+### Is Inferno safe to use?
+Inferno implements industry-standard security measures and has been thoroughly tested. However, all trading involves risk, especially with leverage. Always trade responsibly and never invest more than you can afford to lose.
+
+## Leverage Trading
+
+### What is leverage trading?
+Leverage trading allows you to control a larger position size with a smaller amount of capital. For example, with 10x leverage, you can control a $1000 position with only $100 of your own money.
+
+### How does leverage work in Inferno?
+When you open a leveraged position in Inferno:
+- You specify the amount you want to invest
+- You choose your desired leverage multiplier (e.g., 2x, 5x, 10x)
+- The bot calculates your position size: Investment Amount × Leverage = Position Size
+- Your potential profits and losses are amplified by the leverage multiplier
+
+### What are the risks of leverage trading?
+**High Risk Warning**: Leverage trading significantly increases both potential profits and potential losses:
+- Small market movements can result in large gains or losses
+- You can lose more than your initial investment
+- Positions can be liquidated if the market moves against you
+- Always use stop-loss orders and risk management strategies
+
+### How do I calculate my potential profit/loss?
+```
+Profit/Loss = (Exit Price - Entry Price) × Position Size × Leverage
+```
+
+**Example**: 
+- Investment: $100
+- Leverage: 5x
+- Position Size: $500
+- If price increases 10%: Profit = $500 × 0.10 = $50 (50% return on your $100)
+
+### What happens if my position gets liquidated?
+If your position reaches the liquidation threshold:
+- Your position will be automatically closed
+- You will lose your initial investment
+- Any remaining collateral will be returned to your wallet
+- The bot will notify you of the liquidation
+
+## Trading Mechanics
+
+### How do I open a long position?
+1. Use `/tokens` to browse available trading pairs
+2. Select your desired token
+3. Choose "Long" position
+4. Enter your investment amount
+5. Select your leverage multiplier
+6. Confirm the transaction
+
+### How do I close a position?
+1. Use `/positions` to view your open positions
+2. Select the position you want to close
+3. Choose "Close Position"
+4. Confirm the transaction
+
+### Can I modify my position after opening it?
+Currently, you cannot modify leverage or position size after opening. You must close the position and open a new one with your desired parameters.
+
+### What fees are involved?
+- Trading fees vary by exchange
+- Gas fees for blockchain transactions
+- Bot usage fees (if applicable)
+- Always check the fee structure before trading
+
+## Technical Support
+
+### What should I do if the bot doesn't respond?
+1. Check your internet connection
+2. Ensure the bot is added to your group
+3. Try restarting the conversation with `/start`
+4. Contact support if issues persist
+
+### How do I report a bug or issue?
+Join our [Discord community](https://discord.gg/5ntHDFYecx) and report issues in the appropriate channel. Include:
+- Screenshots of the error
+- Steps to reproduce the issue
+- Your bot version and platform
+
+### Is there a mobile app?
+Inferno is currently only available as a Telegram bot. You can access it from any device that supports Telegram.
+
+## Security & Privacy
+
+### Is my wallet information safe?
+Your private key is generated, encrypted, and sealed in a secure execution environment. No one - not us, not Telegram, not a cloud vendor - can view, extract, or use it. Only you can initiate a transaction.
+
+### What happens if I lose access to my Telegram account?
+Always ensure you have backup access to your wallet. The bot cannot recover funds if you lose access to your Telegram account or wallet.
+
+### Can I use multiple wallets?
+Yes, you can connect multiple wallets to your account. Each wallet will be tracked separately for positions and balances.
+
+## Advanced Features
+
+### What trading pairs are available?
+Available pairs are updated regularly based on market conditions and liquidity. Use `/tokens` to see the current list of supported trading pairs.
+
+### Are there any trading limits?
+Limits may apply based on:
+- Your account tier
+- Market liquidity
+- Risk management parameters
+- Exchange limitations
+
+### Can I set stop-loss orders?
+Stop-loss functionality is available to help manage risk. Set your stop-loss when opening a position to automatically close if the market moves against you.
+
+### Is there a demo mode?
+Currently, Inferno only supports live trading. Always start with small amounts to familiarize yourself with the platform.
+
+---
+
+**Disclaimer**: Trading cryptocurrencies involves substantial risk of loss and is not suitable for all investors. The value of cryptocurrencies can go down as well as up, and you may lose some or all of your investment. Leverage trading increases these risks significantly. Always do your own research and consider consulting with a financial advisor before trading.
